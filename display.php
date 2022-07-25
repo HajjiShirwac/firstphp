@@ -37,13 +37,13 @@
                 <td>'.$username.'</td>
                  <td>
                     <button class="btn btn-info"><a href="" style="color:white;">Update</a></button>
-                    <button class="btn btn-danger"><a href="display.php" style="color:white;">Delete</a></button>
+                    <button class="btn btn-danger"><a href="delete.php? deleted_id='.$id.'" style="color:white;">Delete</a></button>
                     </td>
               </tr>
                 ';
             }
         }
-        
+    
         ?>
          
         </tbody>

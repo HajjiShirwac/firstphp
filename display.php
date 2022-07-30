@@ -36,7 +36,7 @@
                 <td>'.$id.'</td>
                 <td>'.$username.'</td>
                  <td>
-                    <button class="btn btn-info"><a href="" style="color:white;">Update</a></button>
+                    <button class="btn btn-info"><a href="update.php? updated_id='.$id.'" style="color:white;">Update</a></button>
                     <button class="btn btn-danger"><a href="delete.php? deleted_id='.$id.'" style="color:white;">Delete</a></button>
                     </td>
               </tr>
